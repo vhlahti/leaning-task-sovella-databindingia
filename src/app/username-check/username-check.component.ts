@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./username-check.component.css']
 })
 export class UsernameCheckComponent {
+  title = 'sovella-databindingia';
+  username = '';
 
+  resetUsername()
+  {
+    this.username='';
+  }
 }

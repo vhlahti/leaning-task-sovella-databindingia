@@ -1,12 +1,1 @@
-<section>
-  <button
-  [disabled]="(username.length === 0)"
-  class="btn btn-default"
-  (click)="resetUsername()"
-  >Reset username</button><br>
-  <input
-    type="text"
-    class="form-control"
-    [(ngModel)]="username">
-  <p>Username: {{ username }} </p>
-</section>
+<app-username-check></app-username-check>
